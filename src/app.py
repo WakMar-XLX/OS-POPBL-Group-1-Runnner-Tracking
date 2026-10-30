@@ -42,6 +42,7 @@ for s in result["slices"]:
     fig.add_trace(go.Bar(
         x=[s["end"] - s["start"]], base=[s["start"]], y=["Start line"],
         orientation="h", name=label, text=label if s["type"] == "run" else "",
+        textposition="inside", insidetextanchor="middle",
         marker_color="#94A3B8" if s["type"] == "switch" else None, showlegend=False))
 fig.update_layout(barmode="overlay", height=200, xaxis_title="Minutes")
 st.plotly_chart(fig, use_container_width=True)
