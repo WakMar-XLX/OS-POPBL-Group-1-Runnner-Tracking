@@ -32,7 +32,7 @@ Run the tests with `python -m pytest`.
 - `assets/` posters, slides, screenshots
 - `tests/` unit tests
 
-Run the tests with `python -m pytest`.
+
 
 
 
