@@ -17,12 +17,20 @@ A community fun run releases runners in waves, but only one wave can use the sta
 ## Install and run
 ```bash
 git clone <repo-url>
-cd OS-POPBL-Group1-RunnerTracker
+cd OS-POPBL-Group1-RunnerTracking
 python -m venv .venv
 # Windows: .venv\Scripts\activate    macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
 streamlit run src/app.py
 ```
+
+Run the tests with `python -m pytest`.
+
+## Folders
+- `src/` source code
+- `docs/` proposal, architecture diagram, technical report
+- `assets/` posters, slides, screenshots
+- `tests/` unit tests
 
 Run the tests with `python -m pytest`.
 
