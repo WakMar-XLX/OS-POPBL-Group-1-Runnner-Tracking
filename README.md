@@ -35,9 +35,4 @@ Run the tests with `python -m pytest`.
 Run the tests with `python -m pytest`.
 
 
-    r = schedule(WAVES, "FCFS", switch=0)
-    assert state_at(WAVES, r, 2, 0) == "New"
-    assert state_at(WAVES, r, 0, 0) == "Running"
-    assert state_at(WAVES, r, 1, 3) == "Ready"
-    assert state_at(WAVES, r, 0, 99) == "Terminated"
-[scheduler.py](https://github.com/user-attachments/files/34197767/scheduler.py)
+
