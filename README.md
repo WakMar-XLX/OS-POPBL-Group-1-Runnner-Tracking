@@ -1,16 +1,20 @@
-[README.md](https://github.com/user-attachments/files/34195150/README.md)
-# OS-POPBL-Group-1-Runnner-Tracking# WaveFlow: Wave Start Scheduler and Runner Tracker
+[README.md](https://github.com/user-attachments/files/34196762/README.md)[requirements.txt](https://github.com/user-attachments/files/34196766/requirements.txt)streamlit
+plotly
+pandas
+pytest
+[README.md](https://github.com/user-attachments/files/34196788/README.md)
+# WaveFlow: Wave Start Scheduler and Runner Tracker
 
 **Group 1** | Operating System (BNF32303) POPBL | Theme: Wave Starts & Runner Tracking
 
 ## Team members
 | Name | Matric no. |
 |---|---|
-| (MUHAMMAD AMMAR BIN SUANDI HALIL) | (CN260249) |
-| (EMIR SULAIMAN BIN KHAIRUL FAZLI) | (AN260074) |
-| (HARIS SHARAFUDDIN BIN ANUAR) | (CN260379) |
-| (AMIR WAFIQ BIN MOHD ROSLAN) | (CN260417) |
-| (MOHAMMAD ASYRAF KHUZAIRIE BIN HAMZAMI) | (CN260297) |
+| EMIR SULAIMAN BIN KHAIRUL FAIZI |AN260074|
+| AMIR WAFIQ BIN MOHD ROSLAN | CN260417 |
+| MUHAMMAD AMMAR BIN SUANDI HALIL | CN260249 |
+| HARIS SHARAFUDDIN BIN ANUAR | CN260379 |
+| MOHAMMAD ASYRAF KHUZAIRIE BIN HAMZANI | CN260297 |
 
 ## Theme and OS concepts
 A community fun run releases runners in waves, but only one wave can use the start line at a time. WaveFlow treats each wave as a process and the start line as the CPU. It implements FCFS, Round Robin and Priority scheduling, tracks every wave through the states New, Ready, Running, Blocked and Terminated, and compares the algorithms by average waiting, turnaround and response time.
@@ -18,7 +22,7 @@ A community fun run releases runners in waves, but only one wave can use the sta
 ## Install and run
 ```bash
 git clone <repo-url>
-cd OS-POPBL-Group1-WaveStart
+cd OS-POPBL-Group1-RunnerTracker
 python -m venv .venv
 # Windows: .venv\Scripts\activate    macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
